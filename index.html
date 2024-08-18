@@ -4,7 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sarib</title>
-    
+    <style>
+      #text:hover{
+        border-bottom: 4px solid white;
+        
+      }
+    </style>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <link rel="stylesheet" href="output.css" />
   </head>
   <body class="bg-black text-white">
@@ -16,17 +22,17 @@
         <p class="text-2xl p-2 pl-5">Sarib</p>
         <div class="hidden sm:block">
           <ul class="flex items-center text-lg px-5 my-3">
-            <li class="hover:bg-white rounded-full py-1">
-              <a href="#home" class="px-5 hover:text-teal-300">Home</a>
+            <li class=" rounded-full py-1 px-5">
+              <a href="#home" class="px-2 " id="text">Home</a>
             </li>
-            <li class="hover:bg-white rounded-full py-1">
-              <a href="#skills" class="px-5 hover:text-teal-300">Skills</a>
+            <li class=" rounded-full py-1 px-5">
+              <a href="#skills" class="px-2 " id="text">Skills</a>
             </li>
-            <li class="hover:bg-white rounded-full py-1">
-              <a href="#projects" class="px-5 hover:text-teal-300">Projects</a>
+            <li class=" rounded-full py-1 px-5">
+              <a href="#projects" class="px-2 " id="text">Projects</a>
             </li>
-            <li class="hover:bg-white rounded-full py-1">
-              <a href="#contact" class="px-5 hover:text-teal-300">Contact me</a>
+            <li class=" rounded-full py-1 px-5">
+              <a href="#contact" class="px-2 " id="text">Contact me</a>
             </li>
           </ul>
         </div>
@@ -101,13 +107,13 @@
           <span>I am a </span>
           <span class="text-teal-300 auto-type"></span>
         </div>
-        
-          <img
+        <lottie-player src="https://lottie.host/4aeabc46-d145-4654-9f12-2fc926758f07/uxYyfhfw3O.json"  style="width: 400px; height: 400px; margin-left:20%" loop  autoplay  ></lottie-player>
+          <!-- <img
         class="h-64 object-cover sm:ml-20 hidden sm:block"
         style="margin-left: 25%;"
           src="coding.png"
           alt=""
-        />
+        /> -->
         
       </div>
       <div class="text-center mt-10">
@@ -274,15 +280,90 @@ With a strong foundation in Android development, I have honed my skills in Flutt
             <a href="https://metatixuslabs.com/" target="_blank"
               ><video
                 class="rounded h-100 w-full"
-                src="videos/untitled3.webm"
+                src="videos/untitled15(b).webm"
                 loop
                 autoplay
                 muted
               ></video>
-              <p class="text-black font-bold">Adidas Shoes Store</p>
+              <p class="text-black font-bold">Grocery Store UI using Riverpod</p>
               <p class="text-black">
-                Adidas Shoes app store where user browse different shoes, select
-                them and add them to their cart.
+                Grocery store app where user select and add grocery item in cart and manage them in their cart page using riverpod Statemanagement of flutter.
+              </p></a
+            >
+          </div>
+          <div class="bg-white p-2 rounded mx-10 my-10">
+            <a href="https://metatixuslabs.com/" target="_blank"
+              ><video
+                class="rounded h-100 w-full"
+                src="videos/untitled13.webm"
+                loop
+                autoplay
+                muted
+              ></video>
+              <p class="text-black font-bold">Music Player App</p>
+              <p class="text-black">
+                Music player app where user can navigate through different song and play and control it's duration etc.
+              </p></a
+            >
+          </div>
+          <div class="bg-white p-2 rounded mx-10 my-10">
+            <a href="https://metatixuslabs.com/" target="_blank"
+              ><video
+                class="rounded h-100 w-full"
+                src="videos/untitled11.webm"
+                loop
+                autoplay
+                muted
+              ></video>
+              <p class="text-black font-bold">Sushi Restaurant App</p>
+              <p class="text-black">
+                Sushi restaurant app using provider where user add different sushi's and select them to order it.
+              </p></a
+            >
+          </div>
+          <div class="bg-white p-2 rounded mx-10 my-10">
+            <a href="https://metatixuslabs.com/" target="_blank"
+              ><video
+                class="rounded h-100 w-full"
+                src="videos/untitled17.webm"
+                loop
+                autoplay
+                muted
+              ></video>
+              <p class="text-black font-bold">Tetris Game</p>
+              <p class="text-black">
+                Tetris game with score functionality when a row is full it will increment the score also when a column is full the game is over.
+              </p></a
+            >
+          </div>
+          
+          <div class="bg-white p-2 rounded mx-10 my-10">
+            <a href="https://metatixuslabs.com/" target="_blank"
+              ><video
+                class="rounded h-100 w-full"
+                src="videos/untitled10.webm"
+                loop
+                autoplay
+                muted
+              ></video>
+              <p class="text-black font-bold">Weather App using Openweather Api</p>
+              <p class="text-black">
+                Weather app that request user location and and give weather condition of the user location.
+              </p></a
+            >
+          </div>
+          <div class="bg-white p-2 rounded mx-10 my-10">
+            <a href="https://metatixuslabs.com/" target="_blank"
+              ><video
+                class="rounded h-100 w-full"
+                src="videos/untitled16.webm"
+                loop
+                autoplay
+                muted
+              ></video>
+              <p class="text-black font-bold">TIC TAC TOE</p>
+              <p class="text-black">
+                Tic tac toe game to play between two player's and also store scores of both individuals.
               </p></a
             >
           </div>
@@ -314,6 +395,55 @@ With a strong foundation in Android development, I have honed my skills in Flutt
               </p></a
             >
           </div>
+          <div class="bg-white p-2 rounded mx-10 my-10">
+            <a href="https://metatixuslabs.com/" target="_blank"
+              ><video
+                class="rounded h-100 w-full"
+                src="videos/untitled3.webm"
+                loop
+                autoplay
+                muted
+              ></video>
+              <p class="text-black font-bold">Adidas Shoes Store</p>
+              <p class="text-black">
+                Adidas Shoes app store where user browse different shoes, select
+                them and add them to their cart.
+              </p></a
+            >
+          </div>
+          <div class="bg-white p-2 rounded mx-10 my-10">
+            <a href="https://metatixuslabs.com/" target="_blank"
+              ><video
+                class="rounded h-100 w-full"
+                src="videos/untitled12.webm"
+                loop
+                autoplay
+                muted
+              ></video>
+              <p class="text-black font-bold">Donut Store UI</p>
+              <p class="text-black">
+                Donut store app where user select, navigate through different tab to select and add item in cart and manage them in their cart page using riverpod Statemanagement of flutter.
+              </p></a
+            >
+          </div>
+          <div class="bg-white p-2 rounded mx-10 my-10">
+            <a href="https://metatixuslabs.com/" target="_blank"
+              ><video
+                class="rounded h-100 w-full"
+                src="videos/untitled18.webm"
+                loop
+                autoplay
+                muted
+              ></video>
+              <p class="text-black font-bold">NFT Store</p>
+              <p class="text-black">
+                NFT app where user check trending and top nft's with a bottom bar with glass morphisim effect.
+              </p></a
+            >
+          </div>
+          
+          
+          
           <div class="bg-white p-2 rounded mx-10 my-10">
             <video
                 class="rounded h-100 w-full"
